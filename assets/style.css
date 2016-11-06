@@ -1,0 +1,140 @@
+.row {
+    margin: 0 auto;
+    max-width: 95%;
+    width: 100%;
+}
+
+.column.small-centered, .columns.small-centered {
+    margin-left: auto;
+    margin-right: auto;
+    float: none;
+}
+
+.column.small-centered:last-child, .columns.small-centered:last-child {
+    float: none;
+}
+
+h1 {
+  text-align: center;
+}
+
+button, .button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border-radius: 0;
+    border-style: solid;
+    border-width: 0;
+    cursor: pointer;
+    font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+    font-weight: normal;
+    line-height: normal;
+    margin: 0 0 1.25rem;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 1rem 2rem 1.0625rem 2rem;
+    font-size: 1rem;
+    background-color: #008CBA;
+    border-color: #007095;
+    color: #FFFFFF;
+    transition: background-color 300ms ease-out;
+}
+
+.button-group {
+      margin: 15px 30%;
+}
+
+.button-group.round > * > button, .button-group.round > * .button {
+    border-left: 1px solid;
+    border-color: rgba(255, 255, 255, 0.5);
+}
+
+.button-group.toggle li:not(first-child) {
+  margin: 0 -0.9rem; }
+
+.button-group.round > *:first-child, .button-group.round > *:first-child > a, .button-group.round > *:first-child > button, .button-group.round > *:first-child > .button {
+    -webkit-border-bottom-left-radius: 1000px;
+    -webkit-border-top-left-radius: 1000px;
+    border-bottom-left-radius: 1000px;
+    border-top-left-radius: 1000px;
+}
+
+.button-group.round > *:last-child, .button-group.round > *:last-child > a, .button-group.round > *:last-child > button, .button-group.round > *:last-child > .button {
+    -webkit-border-bottom-right-radius: 1000px;
+    -webkit-border-top-right-radius: 1000px;
+    border-bottom-right-radius: 1000px;
+    border-top-right-radius: 1000px;
+}
+
+
+input[data-toggle] {
+  display: none; }
+
+input[data-toggle]:checked + label,
+input[data-toggle]:checked + label:active {
+  background-color: salmon;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15) inset, 0 1px 2px rgba(0, 0, 0, 0.05); }
+
+input[type="checkbox"] + label, input[type="radio"] + label {
+    display: inline-block;
+    margin-left: 0.5rem;
+    margin-right: 1rem;
+    margin-bottom: 0;
+    vertical-align: baseline;
+}
+
+input[data-toggle]:checked + label, input[data-toggle]:checked + label:active {
+    background-color: salmon;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15) inset, 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.status {
+   border-radius: 25px;
+ }
+
+.online {
+    background-color: green;
+}
+
+.offline {
+    background-color: #555;
+}
+
+.closed {
+  background-color: #b50a0a;
+}
+
+li {
+  list-style-type: none;
+}
+
+.account-list {
+  display: block;
+  position: relative;
+  margin: 15px auto;
+}
+
+.account-avatar {
+  margin-top: 25px;
+  margin-left: 25px;
+  width: 100px;
+  height: 100px;
+  border: medium solid #eee;
+  border-radius: 50pc;
+}
+
+.account-name {
+  margin-top: 20px;
+  margin-left: 40px;
+  color: #fff;
+}
+
+.account-status {
+  margin-left: 25%;
+  margin-top: -100px;
+  padding-bottom: 70px;
+  color: #fff;
+  font-size: 30px;
+}
+   

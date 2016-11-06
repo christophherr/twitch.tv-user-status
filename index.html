@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<meta charset="utf-8">
+<title>Free Code Camp twitch.tv User Status</title>
+<link href="https://cdn.jsdelivr.net/foundation/6.2.0/foundation.min.css" rel="stylesheet" type="text/css" />
+<link href="http://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/foundation-icons.css" rel="stylesheet" type="text/css" />
+<link href="/assets/style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+  <div class="row">
+    <div class="small-9 small-centered columns">
+      <h1>Freecodecamp twitch.tv User status</h1>
+          <ul class="button-group round toggle" data-toggle="buttons-radio">
+            <li>
+              <input type="radio" id="r1" name="r-group" data-toggle="button">
+              <label class="button" for="r1">All Users</label>
+            </li>
+            <li>
+              <input type="radio" id="r2" name="r-group" data-toggle="button">
+              <label class="button" for="r2">Users Online</label>
+            </li>
+            <li>
+              <input type="radio" id="r3" name="r-group" data-toggle="button">
+              <label class="button" for="r3">Users Offline</label>
+            </li>
+          </ul>
+    </div>
+  </div>
+  <div class="row">
+    <div class="small-9 small-centered columns">
+      <ul class="account-list"></ul>
+    </div>
+  </div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="/assets/app.js"></script>
+</body>
+</html>
